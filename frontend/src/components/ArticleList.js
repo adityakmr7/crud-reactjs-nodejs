@@ -52,7 +52,7 @@ class ArticleList extends Component {
         return (
             <div>
                 {this.state.message && alert}
-                <div>
+                <div style={{width: '50%', margin: '0 auto'}}>
                     <InputGroup>
                         <FormControl
                             className="m-2"

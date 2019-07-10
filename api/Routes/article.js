@@ -4,6 +4,27 @@ const Article = require('../models/Article');
 mongoose.model('Article');
 const router = express.Router();
 
+
+
+/*
+*   Search Api
+* */
+
+/**
+ *  End poinst http://localhost:8080/search?q=${q}
+ */
+//
+//
+//
+// router.get('/search', (req,res,next) => {
+//     const result = Article.filter(art => {
+//         new RegExp(`^${req.query.q}`).test(art)
+//     })
+//     res.json(result);
+// });
+
+
+
 /*
 *   Delete Article
 * */
